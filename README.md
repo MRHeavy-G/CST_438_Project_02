@@ -8,4 +8,5 @@ Orozco Silva	Marcos	morozcosilva@csumb.edu	MarcosOS98
 Ventura	Alexander aleventura@csumb.edu	Bujangja
 
 ERD Diagram
+
 ![Project2ERD drawio](https://user-images.githubusercontent.com/72904602/155921634-2707fa05-2f86-4538-ad2d-1a4bcf9dbbc8.png)
