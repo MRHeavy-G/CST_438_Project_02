@@ -10,3 +10,7 @@ Ventura	Alexander aleventura@csumb.edu	Bujangja
 ERD Diagram
 
 ![Project2ERD drawio](https://user-images.githubusercontent.com/72904602/155921634-2707fa05-2f86-4538-ad2d-1a4bcf9dbbc8.png)
+
+Wish List Mock Up
+https://www.figma.com/file/iGlWLehpcoaa9rZXJ2j26w/WishList_Website_Design?node-id=0%3A1
+![image](https://user-images.githubusercontent.com/56487444/155931324-3f412475-2f67-4637-b6b8-75e4b73f0920.png)
