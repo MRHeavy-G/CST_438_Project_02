@@ -1,8 +1,10 @@
 package com.example.project02.Project02_Team8;
 
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
@@ -12,9 +14,9 @@ public class Project02Team8Application {
 
 	//connector to the server
 	@RequestMapping("/")
-	@ResponseBody
-	String home() {
-		return "Hello world!";
+//	@ResponseBody
+	String home(Model model) {
+		return "homu ma4y	Me";
 	}
 
 
