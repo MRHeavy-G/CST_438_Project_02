@@ -16,7 +16,7 @@ public class Project02Team8Application {
 	@RequestMapping("/")
 //	@ResponseBody
 	String home(Model model) {
-		return "homu ma4y	Me";
+		return "home";
 	}
 
 
