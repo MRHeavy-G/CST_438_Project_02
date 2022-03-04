@@ -1,0 +1,344 @@
+/* screen - login-page */
+
+.login-page {
+  background-color: var(--white);
+  height: 100vh;
+  margin: 0px;
+  min-height: 1080px;
+  min-width: 1920px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.login-page .head-body-fmx5hU {
+  background-color: transparent;
+  height: 1246px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1928px;
+}
+
+.login-page .header_-body-JTqo01 {
+  background-color: var(--shocking-pink);
+  height: 158px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 1920px;
+}
+
+.login-page .header_-body_-front-JTqo01 {
+  background-color: var(--shocking-pink-2);
+  border-radius: 63px;
+  height: 242px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 1920px;
+}
+
+.login-page .header_-body_-front-QLWtDD {
+  background-color: var(--shocking-pink);
+  border-radius: 63px;
+  height: 242px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 1004px;
+  width: 1920px;
+}
+
+.login-page .modern-wish-list-JTqo01 {
+  -webkit-text-stroke: 1px var(--black);
+  background-color: transparent;
+  height: auto;
+  left: 127px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 38px;
+  width: 515px;
+}
+
+.login-page .li_-button-JTqo01 {
+  background-color: transparent;
+  height: 72px;
+  left: 1479px;
+  position: absolute;
+  top: 49px;
+  width: 156px;
+}
+
+.login-page .log_-in_-button-C7NXhX {
+  background-color: var(--romance);
+  border-radius: 40px;
+  height: 72px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 154px;
+}
+
+.login-page .log-in-C7NXhX {
+  background-color: transparent;
+  height: auto;
+  left: 6px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 7px;
+  width: 141px;
+}
+
+.login-page .su_-button-JTqo01 {
+  background-color: transparent;
+  height: 72px;
+  left: 1688px;
+  position: absolute;
+  top: 49px;
+  width: 156px;
+}
+
+.login-page .sign_-up_-button-xR2ds8 {
+  background-color: var(--romance);
+  border-radius: 40px;
+  height: 72px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 154px;
+}
+
+.login-page .sign-up-xR2ds8 {
+  background-color: transparent;
+  cursor: pointer;
+  height: auto;
+  left: 6px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 7px;
+  width: 141px;
+}
+
+.login-page .wish-list_-icon-JTqo01 {
+  background-color: transparent;
+  height: 84px;
+  left: 67px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 56px;
+  width: 84px;
+}
+
+.login-page .dividor-JTqo01 {
+  background-color: var(--black);
+  height: 111px;
+  left: 1662px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 24px;
+  width: 3px;
+}
+
+.login-page .about-JTqo01 {
+  background-color: transparent;
+  height: auto;
+  left: 1417px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 177px;
+  width: 175px;
+}
+
+.login-page .blog-JTqo01 {
+  background-color: transparent;
+  height: auto;
+  left: 1592px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 177px;
+  width: 155px;
+}
+
+.login-page .help-JTqo01 {
+  background-color: transparent;
+  height: auto;
+  left: 1768px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 177px;
+  width: 139px;
+}
+
+.login-page .center-body-fmx5hU {
+  background-color: transparent;
+  height: 510px;
+  left: 523px;
+  position: absolute;
+  top: 307px;
+  width: 840px;
+}
+
+.login-page .log-in-to-modern-wish-list-qdbFGj {
+  background-color: transparent;
+  color: var(--black);
+  font-family: var(--font-family-salsa);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 43px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: 748px;
+}
+
+.login-page .if-you-dont-have-an-account-yet-qdbFGj {
+  background-color: transparent;
+  height: auto;
+  left: 24px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 76px;
+  width: 362px;
+}
+
+.login-page .sign-up-for-modern-wish-list-qdbFGj {
+  background-color: transparent;
+  color: #dc13ee;
+  cursor: pointer;
+  font-family: var(--font-family-salsa);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 386px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 75px;
+  width: 393px;
+}
+
+.login-page .dvidor-qdbFGj {
+  background-color: var(--black);
+  height: 1px;
+  left: 93px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 68px;
+  width: 638px;
+}
+
+.login-page .email_-section-qdbFGj {
+  background-color: transparent;
+  height: 103px;
+  left: 0px;
+  position: absolute;
+  top: 233px;
+  width: 836px;
+}
+
+.login-page .email-xcxc6t {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: 83px;
+}
+
+.login-page .email_-dvidor-xcxc6t {
+  background-color: var(--black-2);
+  height: 1px;
+  left: 9px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 102px;
+  width: 825px;
+}
+
+.login-page .password_-section-qdbFGj {
+  background-color: transparent;
+  height: 99px;
+  left: 0px;
+  position: absolute;
+  top: 411px;
+  width: 836px;
+}
+
+.login-page .password-0j7Y29 {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: 132px;
+}
+
+.login-page .password_-dvidor-0j7Y29 {
+  background-color: var(--black-2);
+  height: 1px;
+  left: 9px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 98px;
+  width: 825px;
+}
+
+.login-page .log-in-fmx5hU {
+  -webkit-text-stroke: 1px var(--black);
+  background-color: transparent;
+  cursor: pointer;
+  height: auto;
+  left: 869px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 876px;
+  width: 140px;
+}

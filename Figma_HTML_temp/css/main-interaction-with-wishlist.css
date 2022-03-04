@@ -1,0 +1,360 @@
+/* screen - main-interaction-with-wishlist */
+
+.main-interaction-with-wishlist {
+  background-color: var(--white);
+  height: 100vh;
+  margin: 0px;
+  min-height: 1080px;
+  min-width: 1920px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.main-interaction-with-wishlist .head-body-BxXy9o {
+  background-color: transparent;
+  height: 1246px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1930px;
+}
+
+.main-interaction-with-wishlist .header_-body-np7xdj {
+  background-color: var(--shocking-pink);
+  height: 158px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 1920px;
+}
+
+.main-interaction-with-wishlist .header_-body_-front-np7xdj {
+  background-color: var(--shocking-pink-2);
+  border-radius: 63px;
+  height: 242px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 1920px;
+}
+
+.main-interaction-with-wishlist .header_-body_-front-7teyux {
+  background-color: var(--shocking-pink);
+  border-radius: 63px;
+  height: 242px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 1004px;
+  width: 1920px;
+}
+
+.main-interaction-with-wishlist .modern-wish-list-np7xdj {
+  -webkit-text-stroke: 1px var(--black);
+  background-color: transparent;
+  height: auto;
+  left: 127px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 38px;
+  width: 515px;
+}
+
+.main-interaction-with-wishlist .wish-list_-icon-np7xdj {
+  background-color: transparent;
+  height: 84px;
+  left: 67px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 56px;
+  width: 84px;
+}
+
+.main-interaction-with-wishlist .about-np7xdj {
+  background-color: transparent;
+  height: auto;
+  left: 1417px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 177px;
+  width: 175px;
+}
+
+.main-interaction-with-wishlist .blog-np7xdj {
+  background-color: transparent;
+  height: auto;
+  left: 1592px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 177px;
+  width: 155px;
+}
+
+.main-interaction-with-wishlist .help-np7xdj {
+  background-color: transparent;
+  height: auto;
+  left: 1768px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 177px;
+  width: 139px;
+}
+
+.main-interaction-with-wishlist .user_-profile-np7xdj {
+  background-color: transparent;
+  height: 117px;
+  left: 1433px;
+  position: absolute;
+  top: 23px;
+  width: 407px;
+}
+
+.main-interaction-with-wishlist .profile-n6RcxO {
+  -webkit-text-stroke: 1px var(--black);
+  background-color: transparent;
+  color: var(--black);
+  font-family: var(--font-family-salsa);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: -1px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 40px;
+  width: 282px;
+}
+
+.main-interaction-with-wishlist .default-profile-photo_qlofsd-1-n6RcxO {
+  background-color: transparent;
+  height: 108px;
+  left: 297px;
+  mix-blend-mode: hard-light;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: 108px;
+}
+
+.main-interaction-with-wishlist .edit_-profile-np7xdj {
+  background-color: transparent;
+  color: var(--black);
+  cursor: pointer;
+  font-family: var(--font-family-salsa);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 1826px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 77px;
+  width: 55px;
+}
+
+.main-interaction-with-wishlist .main_-interaction_-with_-wishlist_-body-BxXy9o {
+  background-color: transparent;
+  height: 671px;
+  left: 200px;
+  position: absolute;
+  top: 289px;
+  width: 1461px;
+}
+
+.main-interaction-with-wishlist .nwl_-button-nV2duM {
+  background-color: transparent;
+  height: 63px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 267px;
+}
+
+.main-interaction-with-wishlist .new-wish-list-fA2CQp {
+  background-color: transparent;
+  cursor: pointer;
+  height: auto;
+  left: 2px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 9px;
+  width: 252px;
+}
+
+.main-interaction-with-wishlist .new_-wish_-list_-button-fA2CQp {
+  background-color: transparent;
+  border: 1px solid var(--black);
+  border-radius: 34px;
+  height: 63px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 265px;
+}
+
+.main-interaction-with-wishlist .my-wish-list-nV2duM {
+  background-color: transparent;
+  height: 54px;
+  left: 0px;
+  position: absolute;
+  top: 145px;
+  width: 231px;
+}
+
+.main-interaction-with-wishlist .my-wish-list-aBv9DQ {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: 229px;
+}
+
+.main-interaction-with-wishlist .mwl_-divdor-aBv9DQ {
+  background-color: var(--black);
+  height: 4px;
+  left: 5px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 50px;
+  width: 224px;
+}
+
+.main-interaction-with-wishlist .edit-wish-list-nV2duM {
+  background-color: transparent;
+  height: 54px;
+  left: 1163px;
+  position: absolute;
+  top: 141px;
+  width: 231px;
+}
+
+.main-interaction-with-wishlist .edit-wish-list-qD1V5y {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: 229px;
+}
+
+.main-interaction-with-wishlist .ewl_-divdor-qD1V5y {
+  background-color: var(--black);
+  height: 4px;
+  left: 5px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 50px;
+  width: 224px;
+}
+
+.main-interaction-with-wishlist .items_-bodies-nV2duM {
+  background-color: transparent;
+  height: 420px;
+  left: 2px;
+  position: absolute;
+  top: 251px;
+  width: 1459px;
+}
+
+.main-interaction-with-wishlist .item_-VQo7WE {
+  background-color: var(--shocking-pink-3);
+  border-radius: 56px;
+  height: 420px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 367px;
+}
+
+.main-interaction-with-wishlist .item_-dz8D3y {
+  background-color: var(--shocking-pink-3);
+  border-radius: 56px;
+  height: 420px;
+  left: 529px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 367px;
+}
+
+.main-interaction-with-wishlist .item_-HSk2B6 {
+  background-color: var(--shocking-pink-3);
+  border-radius: 56px;
+  height: 420px;
+  left: 1092px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 367px;
+}
+
+.main-interaction-with-wishlist .heart-1-VQo7WE {
+  background-color: transparent;
+  height: 211px;
+  left: 78px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 104px;
+  width: 211px;
+}
+
+.main-interaction-with-wishlist .heart-2-VQo7WE {
+  background-color: transparent;
+  height: 211px;
+  left: 607px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 104px;
+  width: 211px;
+}
+
+.main-interaction-with-wishlist .heart-3-VQo7WE {
+  background-color: transparent;
+  height: 211px;
+  left: 1170px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 104px;
+  width: 211px;
+}

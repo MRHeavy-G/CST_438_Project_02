@@ -1,0 +1,11 @@
+/* screen - new-wish-list-page */
+
+.new-wish-list-page {
+  background-color: #ffffff4f;
+  height: 1080px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 1920px;
+}

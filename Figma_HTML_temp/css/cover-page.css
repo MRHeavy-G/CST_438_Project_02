@@ -1,0 +1,325 @@
+/* screen - cover-page */
+
+.cover-page {
+  background-color: var(--white);
+  height: 100vh;
+  margin: 0px;
+  min-height: 1080px;
+  min-width: 1920px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.cover-page .popular-body-s2DFtd {
+  background-color: transparent;
+  height: 762px;
+  left: 67px;
+  position: absolute;
+  top: 242px;
+  width: 1804px;
+}
+
+.cover-page .popular-items-body-ze3nm2 {
+  background-color: #e15fec5c;
+  height: 762px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 1802px;
+}
+
+.cover-page .wishlist_cart-1-ze3nm2 {
+  background-color: transparent;
+  height: 72px;
+  left: 42px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 50px;
+  width: 77px;
+}
+
+.cover-page .most-popular-i-tems-ze3nm2 {
+  background-color: transparent;
+  height: auto;
+  left: 166px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 71px;
+  width: 342px;
+}
+
+.cover-page .mpi_-underline-ze3nm2 {
+  background-color: var(--black);
+  height: 5px;
+  left: 154px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 117px;
+  width: 354px;
+}
+
+.cover-page .items_-bodies-ze3nm2 {
+  background-color: transparent;
+  height: 420px;
+  left: 188px;
+  position: absolute;
+  top: 216px;
+  width: 1459px;
+}
+
+.cover-page .item_-3LDFdh {
+  background-color: var(--white);
+  border-radius: 56px;
+  height: 420px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 367px;
+}
+
+.cover-page .item_-Kextxo {
+  background-color: var(--white);
+  border-radius: 56px;
+  height: 420px;
+  left: 529px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 367px;
+}
+
+.cover-page .item_-l2xZ8i {
+  background-color: var(--white);
+  border-radius: 56px;
+  height: 420px;
+  left: 1092px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 367px;
+}
+
+.cover-page .heart-1-3LDFdh {
+  background-color: transparent;
+  height: 211px;
+  left: 78px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 104px;
+  width: 211px;
+}
+
+.cover-page .heart-2-3LDFdh {
+  background-color: transparent;
+  height: 211px;
+  left: 607px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 104px;
+  width: 211px;
+}
+
+.cover-page .heart-3-3LDFdh {
+  background-color: transparent;
+  height: 211px;
+  left: 1170px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 104px;
+  width: 211px;
+}
+
+.cover-page .head-body-s2DFtd {
+  background-color: transparent;
+  height: 1246px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1928px;
+}
+
+.cover-page .header_-body-e32dxT {
+  background-color: var(--shocking-pink);
+  height: 158px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 1920px;
+}
+
+.cover-page .header_-body_-front-e32dxT {
+  background-color: var(--shocking-pink-2);
+  border-radius: 63px;
+  height: 242px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 1920px;
+}
+
+.cover-page .header_-body_-front-wWowJw {
+  background-color: var(--shocking-pink);
+  border-radius: 63px;
+  height: 242px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 1004px;
+  width: 1920px;
+}
+
+.cover-page .modern-wish-list-e32dxT {
+  -webkit-text-stroke: 1px var(--black);
+  background-color: transparent;
+  height: auto;
+  left: 127px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 38px;
+  width: 515px;
+}
+
+.cover-page .li_-button-e32dxT {
+  background-color: transparent;
+  height: 72px;
+  left: 1479px;
+  position: absolute;
+  top: 49px;
+  width: 156px;
+}
+
+.cover-page .log_-in_-button-TrdTzD {
+  background-color: var(--romance);
+  border-radius: 40px;
+  height: 72px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 154px;
+}
+
+.cover-page .log-in-TrdTzD {
+  background-color: transparent;
+  cursor: pointer;
+  height: auto;
+  left: 6px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 7px;
+  width: 141px;
+}
+
+.cover-page .su_-button-e32dxT {
+  background-color: transparent;
+  height: 72px;
+  left: 1688px;
+  position: absolute;
+  top: 49px;
+  width: 156px;
+}
+
+.cover-page .sign_-up_-button-yVVlj6 {
+  background-color: var(--romance);
+  border-radius: 40px;
+  height: 72px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 154px;
+}
+
+.cover-page .sign-up-yVVlj6 {
+  background-color: transparent;
+  cursor: pointer;
+  height: auto;
+  left: 6px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 7px;
+  width: 141px;
+}
+
+.cover-page .wish-list_-icon-e32dxT {
+  background-color: transparent;
+  height: 84px;
+  left: 67px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 56px;
+  width: 84px;
+}
+
+.cover-page .dividor-e32dxT {
+  background-color: var(--black);
+  height: 111px;
+  left: 1662px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 24px;
+  width: 3px;
+}
+
+.cover-page .about-e32dxT {
+  background-color: transparent;
+  height: auto;
+  left: 1417px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 177px;
+  width: 175px;
+}
+
+.cover-page .blog-e32dxT {
+  background-color: transparent;
+  height: auto;
+  left: 1592px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 177px;
+  width: 155px;
+}
+
+.cover-page .help-e32dxT {
+  background-color: transparent;
+  height: auto;
+  left: 1768px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 177px;
+  width: 139px;
+}

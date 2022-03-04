@@ -1,0 +1,40 @@
+:root { 
+  --black: #000000;
+  --black-2: #00000042;
+  --romance: #fffdfd;
+  --shocking-pink: #db0dc75c;
+  --shocking-pink-2: #db0dc782;
+  --shocking-pink-3: #dc0dc7b0;
+  --white: #ffffff;
+ 
+  --font-size-l: 40px;
+  --font-size-m: 36px;
+  --font-size-s: 24px;
+  --font-size-xl: 48px;
+  --font-size-xxl: 64px;
+ 
+  --font-family-salsa: "Salsa", Helvetica;
+}
+.salsa-normal-black-36px {
+  color: var(--black);
+  font-family: var(--font-family-salsa);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.salsa-normal-black-24px {
+  color: var(--black);
+  font-family: var(--font-family-salsa);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.salsa-normal-black-64px {
+  color: var(--black);
+  font-family: var(--font-family-salsa);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
+}

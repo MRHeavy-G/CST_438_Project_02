@@ -1,0 +1,208 @@
+/* screen - edit-user */
+
+.edit-user {
+  background-color: var(--white);
+  height: 100vh;
+  margin: 0px;
+  min-height: 1080px;
+  min-width: 1920px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.edit-user .head-body-TCFg49 {
+  background-color: transparent;
+  height: 1246px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1928px;
+}
+
+.edit-user .header_-body-G6AxJq {
+  background-color: var(--shocking-pink);
+  height: 158px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 1920px;
+}
+
+.edit-user .header_-body_-front-G6AxJq {
+  background-color: var(--shocking-pink-2);
+  border-radius: 63px;
+  height: 242px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 1920px;
+}
+
+.edit-user .header_-body_-front-VyfbP4 {
+  background-color: var(--shocking-pink);
+  border-radius: 63px;
+  height: 242px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 1004px;
+  width: 1920px;
+}
+
+.edit-user .modern-wish-list-G6AxJq {
+  -webkit-text-stroke: 1px var(--black);
+  background-color: transparent;
+  height: auto;
+  left: 127px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 38px;
+  width: 515px;
+}
+
+.edit-user .wish-list_-icon-G6AxJq {
+  background-color: transparent;
+  height: 84px;
+  left: 67px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 56px;
+  width: 84px;
+}
+
+.edit-user .about-G6AxJq {
+  background-color: transparent;
+  height: auto;
+  left: 1417px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 177px;
+  width: 175px;
+}
+
+.edit-user .blog-G6AxJq {
+  background-color: transparent;
+  height: auto;
+  left: 1592px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 177px;
+  width: 155px;
+}
+
+.edit-user .help-G6AxJq {
+  background-color: transparent;
+  height: auto;
+  left: 1768px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 177px;
+  width: 139px;
+}
+
+.edit-user .user_-profile-G6AxJq {
+  background-color: transparent;
+  height: 117px;
+  left: 1433px;
+  position: absolute;
+  top: 23px;
+  width: 407px;
+}
+
+.edit-user .profile-xkFVlV {
+  -webkit-text-stroke: 1px var(--black);
+  background-color: transparent;
+  color: var(--black);
+  font-family: var(--font-family-salsa);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: -1px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 40px;
+  width: 282px;
+}
+
+.edit-user .default-profile-photo_qlofsd-1-xkFVlV {
+  background-color: transparent;
+  height: 108px;
+  left: 297px;
+  mix-blend-mode: hard-light;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: 108px;
+}
+
+.edit-user .account-info-my-logi-TCFg49 {
+  background-color: transparent;
+  height: auto;
+  left: 31px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 329px;
+  width: 395px;
+}
+
+.edit-user .edit-profile-TCFg49 {
+  background-color: transparent;
+  height: auto;
+  left: 516px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 265px;
+  width: 219px;
+}
+
+.edit-user .account-info-TCFg49 {
+  background-color: transparent;
+  height: auto;
+  left: 530px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 374px;
+  width: 330px;
+}
+
+.edit-user .rectangle-1-TCFg49 {
+  background-color: transparent;
+  border: 1px solid var(--black);
+  height: 337px;
+  left: 590px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 459px;
+  width: 1049px;
+}

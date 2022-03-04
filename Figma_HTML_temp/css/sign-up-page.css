@@ -1,0 +1,422 @@
+/* screen - sign-up-page */
+
+.sign-up-page {
+  background-color: var(--white);
+  height: 100vh;
+  margin: 0px;
+  min-height: 1080px;
+  min-width: 1920px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.sign-up-page .head-body-Wxxxtm {
+  background-color: transparent;
+  height: 1246px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1928px;
+}
+
+.sign-up-page .header_-body-Qg27zO {
+  background-color: var(--shocking-pink);
+  height: 158px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 1920px;
+}
+
+.sign-up-page .header_-body_-front-Qg27zO {
+  background-color: var(--shocking-pink-2);
+  border-radius: 63px;
+  height: 242px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 1920px;
+}
+
+.sign-up-page .header_-body_-front-pawg7P {
+  background-color: var(--shocking-pink);
+  border-radius: 63px;
+  height: 242px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 1004px;
+  width: 1920px;
+}
+
+.sign-up-page .modern-wish-list-Qg27zO {
+  -webkit-text-stroke: 1px var(--black);
+  background-color: transparent;
+  height: auto;
+  left: 127px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 38px;
+  width: 515px;
+}
+
+.sign-up-page .li_-button-Qg27zO {
+  background-color: transparent;
+  height: 72px;
+  left: 1479px;
+  position: absolute;
+  top: 49px;
+  width: 156px;
+}
+
+.sign-up-page .log_-in_-button-rGGXMG {
+  background-color: var(--romance);
+  border-radius: 40px;
+  height: 72px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 154px;
+}
+
+.sign-up-page .log-in-rGGXMG {
+  background-color: transparent;
+  cursor: pointer;
+  height: auto;
+  left: 6px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 7px;
+  width: 141px;
+}
+
+.sign-up-page .su_-button-Qg27zO {
+  background-color: transparent;
+  height: 72px;
+  left: 1688px;
+  position: absolute;
+  top: 49px;
+  width: 156px;
+}
+
+.sign-up-page .sign_-up_-button-YZo6x1 {
+  background-color: var(--romance);
+  border-radius: 40px;
+  height: 72px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 154px;
+}
+
+.sign-up-page .sign-up-YZo6x1 {
+  background-color: transparent;
+  cursor: pointer;
+  height: auto;
+  left: 6px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 7px;
+  width: 141px;
+}
+
+.sign-up-page .wish-list_-icon-Qg27zO {
+  background-color: transparent;
+  height: 84px;
+  left: 67px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 56px;
+  width: 84px;
+}
+
+.sign-up-page .dividor-Qg27zO {
+  background-color: var(--black);
+  height: 111px;
+  left: 1662px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 24px;
+  width: 3px;
+}
+
+.sign-up-page .about-Qg27zO {
+  background-color: transparent;
+  height: auto;
+  left: 1417px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 177px;
+  width: 175px;
+}
+
+.sign-up-page .blog-Qg27zO {
+  background-color: transparent;
+  height: auto;
+  left: 1592px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 177px;
+  width: 155px;
+}
+
+.sign-up-page .help-Qg27zO {
+  background-color: transparent;
+  height: auto;
+  left: 1768px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 177px;
+  width: 139px;
+}
+
+.sign-up-page .sign-up-body-Wxxxtm {
+  background-color: transparent;
+  height: 663px;
+  left: 544px;
+  position: absolute;
+  top: 301px;
+  width: 878px;
+}
+
+.sign-up-page .create-a-new-account-oKdUaj {
+  background-color: transparent;
+  height: auto;
+  left: 86px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: 660px;
+}
+
+.sign-up-page .email_-section-oKdUaj {
+  background-color: transparent;
+  height: 103px;
+  left: 39px;
+  position: absolute;
+  top: 136px;
+  width: 836px;
+}
+
+.sign-up-page .email-oNOxaN {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: 83px;
+}
+
+.sign-up-page .email_-dvidor-oNOxaN {
+  background-color: var(--black-2);
+  height: 1px;
+  left: 9px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 102px;
+  width: 825px;
+}
+
+.sign-up-page .first_-name_-section-oKdUaj {
+  background-color: transparent;
+  height: 122px;
+  left: 39px;
+  position: absolute;
+  top: 294px;
+  width: 348px;
+}
+
+.sign-up-page .first-name-pXCn6z {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: 155px;
+}
+
+.sign-up-page .fn_-dvidor-pXCn6z {
+  background-color: var(--black-2);
+  height: 1px;
+  left: 4px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 121px;
+  width: 342px;
+}
+
+.sign-up-page .last_-name_-section-oKdUaj {
+  background-color: transparent;
+  height: 122px;
+  left: 527px;
+  position: absolute;
+  top: 294px;
+  width: 348px;
+}
+
+.sign-up-page .last-name-eEukxG {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: 155px;
+}
+
+.sign-up-page .fn_-dvidor-eEukxG {
+  background-color: var(--black-2);
+  height: 1px;
+  left: 4px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 121px;
+  width: 342px;
+}
+
+.sign-up-page .password_-section-oKdUaj {
+  background-color: transparent;
+  height: 99px;
+  left: 39px;
+  position: absolute;
+  top: 452px;
+  width: 836px;
+}
+
+.sign-up-page .password-0oJJzx {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: 132px;
+}
+
+.sign-up-page .password_-dvidor-0oJJzx {
+  background-color: var(--black-2);
+  height: 1px;
+  left: 9px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 98px;
+  width: 825px;
+}
+
+.sign-up-page .create_-account_-section-oKdUaj {
+  background-color: transparent;
+  height: 81px;
+  left: 486px;
+  position: absolute;
+  top: 582px;
+  width: 392px;
+}
+
+.sign-up-page .create_-account_-button-1pJ7Zb {
+  background-color: var(--white);
+  border: 3px solid var(--black);
+  border-radius: 5px;
+  height: 67px;
+  left: 1px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 389px;
+}
+
+.sign-up-page .create-account-1pJ7Zb {
+  -webkit-text-stroke: 1px var(--black);
+  background-color: transparent;
+  height: auto;
+  left: -1px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 10px;
+  width: 387px;
+}
+
+.sign-up-page .terms__-condtions_-section-oKdUaj {
+  background-color: transparent;
+  height: 46px;
+  left: 0px;
+  position: absolute;
+  top: 593px;
+  width: 387px;
+}
+
+.sign-up-page .check_-box-FDyR2c {
+  background-color: #ffe1e1;
+  border: 5px solid var(--black);
+  border-radius: 19px;
+  height: 46px;
+  left: 0px;
+  mix-blend-mode: normal;
+  opacity: 0.3;
+  position: absolute;
+  top: 0px;
+  width: 46px;
+}
+
+.sign-up-page .terms-conditions-FDyR2c {
+  background-color: transparent;
+  color: #00000033;
+  font-family: var(--font-family-salsa);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 55px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 3px;
+  width: 330px;
+}
