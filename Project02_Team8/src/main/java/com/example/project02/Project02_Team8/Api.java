@@ -5,6 +5,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Optional;
 
 @Controller
 @RequestMapping(path = "/api")
@@ -26,7 +27,18 @@ public class Api {
         user.setEmail(email);
 
         userRepository.save(user);
-        return "saved User";
+        return "Account successfully created";
+    }
+
+    @PostMapping(path = "/updateUser")
+    public @ResponseBody String updateUser (@RequestParam Integer id, @RequestParam String username, @RequestParam String password, String email) {
+        User user = userRepository.findUserById(id);
+        user.setUsername(username);
+        user.setPassword(password);
+        user.setEmail(email);
+
+        userRepository.save(user);
+        return "Account successfully updated";
     }
 
 }

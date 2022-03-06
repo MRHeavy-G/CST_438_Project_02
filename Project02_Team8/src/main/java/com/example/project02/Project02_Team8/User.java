@@ -10,10 +10,10 @@ public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer id;
-
     private String username;
     private String password;
     private String email;
+    private boolean isAdmin;
 
     public Integer getId() {
         return id;
@@ -46,5 +46,11 @@ public class User {
     public void setEmail(String email) {
         this.email = email;
     }
+    public boolean isAdmin() {
+        return isAdmin;
+    }
 
+    public void setAdmin(boolean admin) {
+        isAdmin = admin;
+    }
 }
