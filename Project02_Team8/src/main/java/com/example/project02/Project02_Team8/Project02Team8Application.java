@@ -19,6 +19,10 @@ public class Project02Team8Application {
 		return "home";
 	}
 
+	@RequestMapping("/sign_up")
+
+	String sign_up(Model model){ return "sign_up";}
+
 
 	public static void main(String[] args) {
 		SpringApplication.run(Project02Team8Application.class, args);
