@@ -12,9 +12,9 @@ public class Project02Team8Application {
 
 	//connector to the server
 	@RequestMapping("/")
-	@ResponseBody
+	//@ResponseBody
 	String home() {
-		return "Hello world!";
+		return "login-page";
 	}
 
 
