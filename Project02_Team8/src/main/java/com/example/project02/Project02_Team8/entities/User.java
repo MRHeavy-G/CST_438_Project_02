@@ -1,4 +1,4 @@
-package com.example.project02.Project02_Team8;
+package com.example.project02.Project02_Team8.entities;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -46,6 +46,7 @@ public class User {
     public void setEmail(String email) {
         this.email = email;
     }
+    
     public boolean isAdmin() {
         return isAdmin;
     }
