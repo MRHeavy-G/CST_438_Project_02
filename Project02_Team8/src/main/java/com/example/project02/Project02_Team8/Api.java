@@ -51,11 +51,11 @@ public class Api {
     }
 
     @PostMapping(path = "/addItem")
-    public @ResponseBody String addItem(@RequestParam String name, @RequestParam Double cost, @RequestParam String desc, @RequestParam Integer stock, @RequestParam String category) {
+    public @ResponseBody String addItem (@RequestParam String name, @RequestParam Double cost, @RequestParam String description, @RequestParam Integer stock, @RequestParam String category) {
         Item item = new Item();
         item.setName(name);
         item.setCost(cost);
-        item.setDesc(desc);
+        item.setDescription(description);
         item.setStock(stock);
         item.setCategory(category);
 

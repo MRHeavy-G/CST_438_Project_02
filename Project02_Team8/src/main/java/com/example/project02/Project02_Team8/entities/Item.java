@@ -9,19 +9,31 @@ import javax.persistence.Id;
 public class Item {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Integer id;
+    private Integer item_id;
     private String name;
     private Double cost;
-    private String desc;
+    private String description;
     private Integer stock;
     private String category;
 
-    public Integer getId() {
-        return id;
+    public Item(String name, Double cost, String description, Integer stock, String category) {
+        this.name = name;
+        this.cost = cost;
+        this.description = description;
+        this.stock = stock;
+        this.category = category;
     }
 
-    public void setId(Integer id) {
-        this.id = id;
+    public Item() {
+
+    }
+
+    public Integer getItem_id() {
+        return item_id;
+    }
+
+    public void setItem_id(Integer item_id) {
+        this.item_id = item_id;
     }
 
     public String getName() {
@@ -40,12 +52,12 @@ public class Item {
         this.cost = cost;
     }
 
-    public String getDesc() {
-        return desc;
+    public String getDescription() {
+        return description;
     }
 
-    public void setDesc(String desc) {
-        this.desc = desc;
+    public void setDescription(String desc) {
+        this.description = desc;
     }
 
     public Integer getStock() {
@@ -56,9 +68,7 @@ public class Item {
         this.stock = stock;
     }
 
-    public String getCategory() {
-        return category;
-    }
+    public String getCategory() { return category; }
 
     public void setCategory(String category) {
         this.category = category;
