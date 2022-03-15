@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+    <link th:href="@{/css/main.css}" rel="stylesheet"/>
+</head>
+
+<script src="../js/home.js"></script>
+
+<header>
+    <!-- Add actually logo if we get one -->
+    <h1>Welcome to Listopher</h1>
+
+    <div id="accBtn">
+        <button id="createAcc", onclick="signup()">Sign up</button>
+    </div>
+</header>
+<h2>Please login</h2>
+
+<div>
+    <h3>Username</h3>
+    <input type="text" id="name">
+</div>
+
+<div>
+    <h3>Password</h3>
+    <input type="text" id="password">
+</div>
+
+<br>
+<button id="login" onclick="login()"> Login</button>
+
+<footer>
+    <p>
+        We here at Listopher offer a neat and simple way to create and organize lists for any need. As well as a place to store all those pesky lists.
+    </p>
+</footer>
+</body>
+</html>
