@@ -1,5 +1,6 @@
-package com.example.project02.Project02_Team8;
+package com.example.project02.Project02_Team8.repositories;
 
+import com.example.project02.Project02_Team8.entities.User;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.query.Param;
