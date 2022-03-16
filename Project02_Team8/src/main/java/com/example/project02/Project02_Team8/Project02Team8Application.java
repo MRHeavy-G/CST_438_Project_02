@@ -19,6 +19,11 @@ public class Project02Team8Application {
 		return "home";
 	}
 
+	@RequestMapping("/landing_page")
+	String landing(Model model) {
+		return "landing_page";
+	}
+
 
 	public static void main(String[] args) {
 		SpringApplication.run(Project02Team8Application.class, args);
