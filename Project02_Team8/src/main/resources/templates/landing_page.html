@@ -5,15 +5,18 @@
     <title>landing_page</title>
     <link th:href="@{/css/main.css}" rel="stylesheet"/>
 </head>
+
+<script src="../js/landing_page.js"></script>
+
 <body>
 <h2>Welcome!</h2>
 
 <div id="options">
     <table>
         <tr>
-            <th><button id="Lists"> Wish lists</button></th>
-            <th><button id="settings">Settings</button></th>
-            <th><button id="logout">Logout</button></th>
+            <th><button id="Lists" onclick="goToWishlists()"> Wish lists</button></th>
+            <th><button id="settings" onclick="goToSettings()">Settings</button></th>
+            <th><button id="logout" onclick="logout()">Logout</button></th>
         </tr>
     </table>
 </div>
