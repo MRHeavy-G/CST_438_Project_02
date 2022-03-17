@@ -1,3 +1,13 @@
 body{
     background-color: #c0ffee;
 }
+
+h1{
+    alignment: center;
+    padding-left:  20px;
+}
+
+p{
+    alignment: center;
+    padding-left:  20px;
+}
