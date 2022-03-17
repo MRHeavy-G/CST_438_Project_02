@@ -2,12 +2,25 @@ body{
     background-color: #c0ffee;
 }
 
-h1{
+header{
+    width: 300px;
     alignment: center;
-    padding-left:  20px;
+    padding: 50px;
+    margin: 20px;
+}
+
+.h1{
+    alignment: center;
+    padding-left:  300px;
 }
 
 p{
     alignment: center;
     padding-left:  20px;
+}
+div {
+    width: 300px;
+    border: 15px solid blue;
+    padding: 50px;
+    margin: 20px;
 }
