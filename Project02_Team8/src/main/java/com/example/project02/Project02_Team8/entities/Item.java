@@ -16,18 +16,6 @@ public class Item {
     private Integer stock;
     private String category;
 
-    public Item(String name, Double cost, String description, Integer stock, String category) {
-        this.name = name;
-        this.cost = cost;
-        this.description = description;
-        this.stock = stock;
-        this.category = category;
-    }
-
-    public Item() {
-
-    }
-
     public Integer getItem_id() {
         return item_id;
     }
