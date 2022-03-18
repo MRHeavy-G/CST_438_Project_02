@@ -19,4 +19,6 @@ public interface UserRepository extends CrudRepository<User,Integer> {
             @Param("user_id") Integer user_id
     );
 
+    User findDistinctByUsernameLike(String username);
+
 }

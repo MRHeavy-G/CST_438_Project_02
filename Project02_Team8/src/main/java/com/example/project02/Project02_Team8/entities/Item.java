@@ -15,6 +15,24 @@ public class Item {
     private String description;
     private Integer stock;
     private String category;
+    private Integer user_id;
+    private Integer listId;
+
+    public Integer getUser_id() {
+        return user_id;
+    }
+
+    public void setUser_id(Integer user_id) {
+        this.user_id = user_id;
+    }
+
+    public Integer getListId() {
+        return listId;
+    }
+
+    public void setListId(Integer listId) {
+        this.listId = listId;
+    }
 
     public Integer getItem_id() {
         return item_id;

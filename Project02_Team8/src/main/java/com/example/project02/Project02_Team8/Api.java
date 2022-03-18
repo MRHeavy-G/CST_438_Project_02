@@ -58,6 +58,15 @@ public class Api {
         return "Account successfully updated";
     }
 
+    @GetMapping(path = "findbyUsername")
+    public @ResponseBody User getUser(@RequestParam String username) {
+        return userRepository.findDistinctByUsernameLike(username);
+    }
+    @GetMapping(path = "findbyUserId")
+    public @ResponseBody User getUser(@RequestParam Integer user_id) {
+        return userRepository.findUserById(user_id);
+    }
+
     @Autowired
     private ItemRepository itemRepository;
 
