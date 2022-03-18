@@ -9,9 +9,11 @@ header{
     margin: 20px;
 }
 
-.h1{
+h1{
     alignment: center;
     padding-left:  300px;
+    margin: auto;
+    max-width: 500px
 }
 
 p{
