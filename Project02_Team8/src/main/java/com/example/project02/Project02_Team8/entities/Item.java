@@ -15,17 +15,23 @@ public class Item {
     private String description;
     private Integer stock;
     private String category;
+    private Integer user_id;
+    private Integer listId;
 
-    public Item(String name, Double cost, String description, Integer stock, String category) {
-        this.name = name;
-        this.cost = cost;
-        this.description = description;
-        this.stock = stock;
-        this.category = category;
+    public Integer getUser_id() {
+        return user_id;
     }
 
-    public Item() {
+    public void setUser_id(Integer user_id) {
+        this.user_id = user_id;
+    }
 
+    public Integer getListId() {
+        return listId;
+    }
+
+    public void setListId(Integer listId) {
+        this.listId = listId;
     }
 
     public Integer getItem_id() {

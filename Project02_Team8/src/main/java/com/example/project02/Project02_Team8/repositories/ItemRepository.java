@@ -19,4 +19,6 @@ public interface ItemRepository extends CrudRepository<Item, Integer> {
     Item findItemById(
             @Param("item_id") Integer item_id
     );
+
+    Iterable<Item> findItemsByListIdLike(Integer listId);
 }

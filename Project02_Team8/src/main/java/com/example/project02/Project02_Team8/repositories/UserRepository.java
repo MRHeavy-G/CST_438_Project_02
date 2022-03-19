@@ -10,15 +10,15 @@ public interface UserRepository extends CrudRepository<User,Integer> {
     @Query(value = "select * from User u where u.username = %:username%",
     countQuery = "select count(*) from User",
     nativeQuery = true)
-    User findUserByUsername(
-            @Param("username") String username
-    );
+    User findUserByUsername(@Param("username") String username);
 
-    @Query(value = "select * from User u where u.id like %:id%",
+    @Query(value = "select * from User u where u.user_id like %:user_id%",
     countQuery = "select count(*) from User",
     nativeQuery = true)
     User findUserById(
-            @Param("id") Integer id
+            @Param("user_id") Integer user_id
     );
+
+    User findDistinctByUsernameLike(String username);
 
 }
