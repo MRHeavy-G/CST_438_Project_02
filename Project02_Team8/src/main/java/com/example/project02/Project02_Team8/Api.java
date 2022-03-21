@@ -78,8 +78,11 @@ public class Api {
 
     @PostMapping(path = "/addItem")
     public @ResponseBody
-    String addItem(@RequestParam String name, @RequestParam Double cost, @RequestParam String description, @RequestParam Integer stock, @RequestParam String category) {
+    String addItem(@RequestParam Integer listId, @RequestParam Integer user_id, @RequestParam String name, @RequestParam Double cost, @RequestParam String description, @RequestParam Integer stock, @RequestParam String category) {
         Item item = new Item();
+
+        item.setListId(listId);
+        item.setUser_id(user_id);
         item.setName(name);
         item.setCost(cost);
         item.setDescription(description);
@@ -87,7 +90,7 @@ public class Api {
         item.setCategory(category);
 
         itemRepository.save(item);
-        return "Item successfully created";
+        return "Item successfully added";
     }
 
     @DeleteMapping(path = "/deleteItem")
@@ -139,16 +142,5 @@ public class Api {
         wishlistRepository.save(wishlist);
 
         return "Wishlist saved";
-    }
-    
-    @PostMapping(path = "/addtoList")
-    public @ResponseBody String addItem(@RequestParam Integer listId, @RequestParam Integer user_id, @RequestParam String name) {
-        Item item = new Item();
-        item.setListId(listId);
-        item.setUser_id(user_id);
-        item.setName(name);
-
-        itemRepository.save(item);
-        return "Item saved to List";
     }
 }
