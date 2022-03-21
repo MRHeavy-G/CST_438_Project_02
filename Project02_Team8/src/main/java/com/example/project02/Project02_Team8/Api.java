@@ -121,4 +121,34 @@ public class Api {
     Iterable<Wishlist> getAllLists() {
         return wishlistRepository.findAll();
     }
+
+
+
+    @GetMapping(path = "/findListsbyUserId")
+    public @ResponseBody Iterable<Wishlist> getUserLists(@RequestParam Integer user_id) {
+        return wishlistRepository.findWishlistsByUser_IdLike(user_id);
+    }
+
+    @PostMapping(path = "/addList")
+    public @ResponseBody String addList(@RequestParam Integer user_id, @RequestParam String listName) {
+        Wishlist wishlist = new Wishlist();
+
+        wishlist.setUser_id(user_id);
+        wishlist.setListName(listName);
+
+        wishlistRepository.save(wishlist);
+
+        return "Wishlist saved";
+    }
+    
+    @PostMapping(path = "/addtoList")
+    public @ResponseBody String addItem(@RequestParam Integer listId, @RequestParam Integer user_id, @RequestParam String name) {
+        Item item = new Item();
+        item.setListId(listId);
+        item.setUser_id(user_id);
+        item.setName(name);
+
+        itemRepository.save(item);
+        return "Item saved to List";
+    }
 }

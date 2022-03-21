@@ -11,11 +11,20 @@ public class Wishlist {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer listId;
     private String listName;
-    private Integer item_id;
     private Integer user_id;
 
-    public Integer getUser_id() {
-        return user_id;
+    public Wishlist(Integer listId, String listName, Integer user_id) {
+        this.listId = listId;
+        this.listName = listName;
+        this.user_id = user_id;
+    }
+
+    public Wishlist() {
+
+    }
+
+    public Integer getUser_id(Integer user_id) {
+        return this.user_id;
     }
 
     public void setUser_id(Integer user_id) {
@@ -28,14 +37,6 @@ public class Wishlist {
 
     public void setListId(Integer listId) {
         this.listId = listId;
-    }
-
-    public Integer getItem_id() {
-        return item_id;
-    }
-
-    public void setItem_id(Integer item_id) {
-        this.item_id = item_id;
     }
 
     public String getListName() {
