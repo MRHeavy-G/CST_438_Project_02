@@ -6,7 +6,7 @@ import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.query.Param;
 
 public interface ItemRepository extends CrudRepository<Item, Integer> {
-    @Query(value = "select * from Item i where i.name = %:name%",
+    @Query(value = "select * from Item i where i.name like %:name%",
             countQuery = "select count(*) from Item",
             nativeQuery = true)
     Item findItemByName(

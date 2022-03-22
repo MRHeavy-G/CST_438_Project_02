@@ -78,8 +78,11 @@ public class Api {
 
     @PostMapping(path = "/addItem")
     public @ResponseBody
-    String addItem(@RequestParam String name, @RequestParam Double cost, @RequestParam String description, @RequestParam Integer stock, @RequestParam String category) {
+    String addItem(@RequestParam Integer listId, @RequestParam Integer user_id, @RequestParam String name, @RequestParam Double cost, @RequestParam String description, @RequestParam Integer stock, @RequestParam String category) {
         Item item = new Item();
+
+        item.setListId(listId);
+        item.setUser_id(user_id);
         item.setName(name);
         item.setCost(cost);
         item.setDescription(description);
@@ -87,7 +90,7 @@ public class Api {
         item.setCategory(category);
 
         itemRepository.save(item);
-        return "Item successfully created";
+        return "Item successfully added";
     }
 
     @DeleteMapping(path = "/deleteItem")
@@ -120,5 +123,24 @@ public class Api {
     public @ResponseBody
     Iterable<Wishlist> getAllLists() {
         return wishlistRepository.findAll();
+    }
+
+
+
+    @GetMapping(path = "/findListsbyUserId")
+    public @ResponseBody Iterable<Wishlist> getUserLists(@RequestParam Integer user_id) {
+        return wishlistRepository.findWishlistsByUser_IdLike(user_id);
+    }
+
+    @PostMapping(path = "/addList")
+    public @ResponseBody String addList(@RequestParam Integer user_id, @RequestParam String listName) {
+        Wishlist wishlist = new Wishlist();
+
+        wishlist.setUser_id(user_id);
+        wishlist.setListName(listName);
+
+        wishlistRepository.save(wishlist);
+
+        return "Wishlist saved";
     }
 }
