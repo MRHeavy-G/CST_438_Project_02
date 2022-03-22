@@ -4,6 +4,8 @@ var passwordText;
 function login() {
     //TEMP---------------------------------------------
     window.location.href = "landing_page.html";
+
+    //th.location.href = "landing_page.html";
     return;
     //-------------------------------------------------
 
