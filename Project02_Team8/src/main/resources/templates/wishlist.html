@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>WhishList</title>
+        <link th:href="@{/css/main.css}" rel="stylesheet"/>
+    </head>
+
+    <header>
+        <div th:class="header_body_alignment">
+            <div th:class="center_title">
+                <strong>$UserName</strong>
+            </div>
+            <div th:class="logo_container">
+                <span> Something here</span>
+            </div>
+            <div th:class="sing_up_indent">
+                <strong>WishList thing</strong>
+            </div>
+        </div>
+    </header>
+
+    <body>
+        <div th:class="shift_40_alignment">
+            <div th:class="body_for_alignment">
+                <div>
+                <div th:class="wishlist_left_columnleft_column">
+                    <h2>My Wish List</h2>
+                    <span>Generate a list of items that you enjoy / wanted to get gifted :)</span>
+                </div>
+                <div th:class="wishlist_column-right">
+                    <button> Create a New Wish List </button>
+                </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+    <footer>
+
+
+    </footer>
+</html>
