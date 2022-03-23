@@ -16,7 +16,7 @@ public class Item {
     private Integer stock;
     private String category;
     private Integer user_id;
-    private Integer listId;
+    private Integer list_id;
 
     public Integer getUser_id() {
         return user_id;
@@ -26,12 +26,12 @@ public class Item {
         this.user_id = user_id;
     }
 
-    public Integer getListId() {
-        return listId;
+    public Integer getList_id() {
+        return list_id;
     }
 
-    public void setListId(Integer listId) {
-        this.listId = listId;
+    public void setList_id(Integer list_id) {
+        this.list_id = list_id;
     }
 
     public Integer getItem_id() {

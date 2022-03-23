@@ -19,6 +19,8 @@ public interface ItemRepository extends CrudRepository<Item, Integer> {
     Item findItemById(
             @Param("item_id") Integer item_id
     );
-
+    @Query(value = "select * from Item join Wishlist where Item.list_id = Wishlist.list_id",
+            countQuery = "select count(*) from Item",
+            nativeQuery = true)
     Iterable<Item> findItemsByListIdLike(Integer listId);
 }
