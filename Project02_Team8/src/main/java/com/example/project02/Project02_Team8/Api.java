@@ -81,7 +81,7 @@ public class Api {
     String addItem(@RequestParam Integer listId, @RequestParam Integer user_id, @RequestParam String name, @RequestParam Double cost, @RequestParam String description, @RequestParam Integer stock, @RequestParam String category) {
         Item item = new Item();
 
-        item.setListId(listId);
+        item.setList_id(listId);
         item.setUser_id(user_id);
         item.setName(name);
         item.setCost(cost);
@@ -125,7 +125,11 @@ public class Api {
         return wishlistRepository.findAll();
     }
 
-
+    @GetMapping(path = "/getItemsbyListId")
+    public @ResponseBody
+    Iterable<Item> getListItem(@RequestParam Integer list_id) {
+        return itemRepository.findItemsByListIdLike(list_id);
+    }
 
     @GetMapping(path = "/findListsbyUserId")
     public @ResponseBody Iterable<Wishlist> getUserLists(@RequestParam Integer user_id) {
