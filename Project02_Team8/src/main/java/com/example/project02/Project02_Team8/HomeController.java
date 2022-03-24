@@ -19,4 +19,13 @@ public class HomeController {
     public String getSignUp() {
         return "sign-up";
     }
+
+    @RequestMapping(value="/wish_list" , method=RequestMethod.GET)
+    public String getWishList(){return "wishlist";}
+
+    @RequestMapping(value = "/settings", method = RequestMethod.GET)
+    public String getSettings(){return "settings";}
+
+    @RequestMapping(value = "/home", method = RequestMethod.GET)
+    public String getHome(){return "home";}
 }

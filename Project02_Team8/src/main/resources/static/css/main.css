@@ -72,6 +72,16 @@ body{
     border: 1px solid black;
 }
 
+.wishlist_left_column{
+    background-color:white;
+    float: left;
+
+}
+.wishlist_column-right {
+    padding: 10px;
+    float: right;
+}
+
 /* Clear floats after the columns */
 .row:after {
     content: "";
