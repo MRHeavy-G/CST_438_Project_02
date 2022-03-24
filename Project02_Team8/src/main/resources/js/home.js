@@ -1,6 +1,10 @@
 var usernameText;
 var passwordText;
 
+function test() {
+    alert("this is a test");
+}
+
 function login() {
     //TEMP---------------------------------------------
     window.location.href = "landing_page.html";

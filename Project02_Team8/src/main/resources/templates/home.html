@@ -5,9 +5,8 @@
     <meta charset="UTF-8">
     <title>Home Page</title>
     <link type="text/css" rel="stylesheet" th:href="@{/css/main.css}"/>
+    <script type="text/javascript" th:src="@{/js/home.js}" src="/js/home.js"></script>
 </head>
-
-<script th:src="@{/js/home.js}"></script>
 
 <header>
     <!-- Add actually logo if we get one -->
@@ -17,7 +16,7 @@
             <img  th:src="@{/img/Listopher-logos_transparent.png}" th:alt="wishlist_logo">
         </div>
         <div id="accBtn" th:class="sing_up_indent" >
-            <button id="createAcc" th:onclick="signup()"><a th:href="@{/sign_up}">Sign Up </a></button>
+            <button id="createAcc" th:onclick="'test();'"><a th:href="@{/sign_up}">Sign Up </a></button>
 
         </div>
     </div>
@@ -37,13 +36,13 @@
                         <h3>Password</h3>
                         <input type="text" id="password">
                     </div>
-                    <button id="login" th:onclick="login()"> <a th:href="@{/login}">Log In</a> </button>
+                    <button type="button" th:onclick="'test();'"> Login </button>
 
                 </div>
             </div>
 
             <div>
-                <p th:class="left_column">Im going to add some images to this section of gifts with in the right left colums</p>
+                <p th:class="left_column">(Items to be added)</p>
                 <p>Other images</p>
             </div>
         </div>
