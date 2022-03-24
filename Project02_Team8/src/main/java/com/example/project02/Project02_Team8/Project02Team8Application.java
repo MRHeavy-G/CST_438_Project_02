@@ -12,12 +12,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @SpringBootApplication
 public class Project02Team8Application {
 
-	//connector to the server
-//	@RequestMapping("/")
-////	@ResponseBody
-//	String home(Model model) {
-//		return "home";
-//	}
 
 	@RequestMapping("/landing_page")
 	String landing(Model model) {
