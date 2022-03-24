@@ -19,7 +19,7 @@ public class SignInController {
 
     @RequestMapping(value="/signupUser", method = RequestMethod.POST)
     public String signupUser(@ModelAttribute User user) {
-        System.out.println(user.getUsername() + " " + user.getEmail() + " " + user.getPassword());
+        System.out.println("User data: " + user.getUsername() + " " + user.getEmail() + " " + user.getPassword());
         return "sign-up";
     }
 }
