@@ -10,52 +10,66 @@
 <script th:src="@{/js/home.js}"></script>
 
 <header>
-    <!-- Add actually logo if we get one -->
+    <!-- NavBar -->
     <div th:class="header_body_alignment">
         <h1 th:class="center_title">Welcome to Listopher</h1>
         <div th:class="logo_container">
-            <img  th:src="@{/img/Listopher-logos_transparent.png}" th:alt="wishlist_logo">
+            <img  th:src="@{./img/Listopher-logos_transparent.png}" th:alt="wishlist_logo">
         </div>
         <div id="accBtn" th:class="sing_up_indent" >
-            <button id="createAcc" th:onclick="signup()"><a th:href="@{/sign_up}">Sign Up </a> </button>
+            <button id="createAcc" th:onclick="signup()"> <a class="btn btn-warning" th:href="@{/sign_up}">Sign Up </a> </button>
 
         </div>
     </div>
 </header>
 
-<body>
-    <div th:class="shift_40_alignment">
-        <div th:class="body_for_alignment">
-            <div th:class="login_container">
-                <div th:class="left_column">
-                    <h2>Please login</h2>
+<div>
+    <div class="shift_40_alignment">
+        <div th:class="shape-c">
+            <div th:class="container">
+                <div th:class="header_body_alignment">
+                    <h1>Please login</h1>
                     <div>
-                        <h3>Username</h3>
+                        <h2>Username</h2>
                         <input type="text" id="name">
                     </div>
                     <div>
-                        <h3>Password</h3>
+                        <h2>Password</h2>
                         <input type="text" id="password">
                     </div>
+                    <br>
                     <button id="login" th:onclick="login()"> <a th:href="@{/login}">Log In</a> </button>
 
                 </div>
             </div>
 
-            <div>
-                <p th:class="left_column">Im going to add some images to this section of gifts with in the right left colums</p>
+            <div class="container align-to-center justify-content-center">
+                <p >Im going to add some images to this section of gifts with in the right left colums</p>
+                <hr>
                 <p>Other images</p>
             </div>
         </div>
     </div>
 
+</div>
 
+    <footer class="footer">
+        <div class="container">
+            <div class="row row-grid align-to-center mb-5">
+                <div class="col-"></div>
+            </div>
+            <hr>
+            <div class=" row align-to-center justify-content-md-between">
+                <div class="col-">
+                    <a>
+                        We here at Listopher offer a neat and simple way to create and organize lists for any need. As well as a place to store all those pesky lists.
+                    </a>
+                </div>
+            </div>
 
-    <footer th:class="footer">
-        <p>
-            We here at Listopher offer a neat and simple way to create and organize lists for any need. As well as a place to store all those pesky lists.
-        </p>
+        </div>
+
     </footer>
 
-</body>
+
 </html>

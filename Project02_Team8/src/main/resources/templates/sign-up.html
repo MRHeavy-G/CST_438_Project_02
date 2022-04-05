@@ -5,24 +5,63 @@
     <title>Sign_up</title>
     <link th:href="@{/css/main.css}" rel="stylesheet"/>
 </head>
-<body>
 <header>
-    <h2>Create a New Account</h2>
+    <!-- NavBar -->
+    <div th:class="header_body_alignment">
+        <h1 th:class="center_title">Welcome to Listopher</h1>
+        <div th:class="logo_container">
+            <img  th:src="@{./img/Listopher-logos_transparent.png}" th:alt="wishlist_logo">
+        </div>
+    </div>
 </header>
 
-<h3>Email</h3>
 
-<input type="text" id="newEmail">
-</br>
+<body>
+    <header>
+        <h2>Create a New Account</h2>
+    </header>
 
-<h3>Password</h3>
-<input type="text" id="newPassword">
+    <!--
+    <h3>Email</h3>
 
-<h3>Retype Password</h3>
-<input type="text" id="retypePass">
-</br></br>
+    <input type="text" id="newEmail">
+    </br>
 
-<button id="createAcc">Sign up!</button>
+    <h3>Password</h3>
+    <input type="text" id="newPassword">
 
+    <h3>Retype Password</h3>
+    <input type="text" id="retypePass">
+    </br></br>
+
+    <button id="createAcc">Sign up!</button>
+-->
 </body>
+
+
+    <form role="form">
+        <div class="alignment-for-form">
+            <input class="form-control" placeholder="Username" type="text" id="username" style=" background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; cursor: auto;">
+        </div>
+
+        <div class="alignment-for-form">
+            <input class="form-control" placeholder="Password" type="password" id="password" style=" background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; cursor: auto;">
+        </div>
+
+        <div class="alignment-for-form">
+            <input class="form-control" placeholder="Confirm Password" type="password" id="confirmPass" style=" background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; cursor: auto;">
+        </div>
+
+        <div class="row my-5">
+
+        </div>
+
+        <div class="text-center">
+            <button type="button" class="btn btn-warning mt-4" id="createAccBtn">Create account</button>
+        </div>
+    </form>
+
+<div>
+
+</div>
 </html>

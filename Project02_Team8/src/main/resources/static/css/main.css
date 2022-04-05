@@ -4,6 +4,9 @@ body{
     padding-left: 30px;
 }
 
+a{
+    text-decoration: none;
+}
 .shift_40_alignment{
     padding-right: 40px;
     padding-left: 40px;
@@ -45,7 +48,6 @@ body{
     flex-shrink: 0;
     -webkit-box-flex: 1;
     flex-grow: 1;
-    flex-base: 0;
 
 }
 
@@ -82,6 +84,81 @@ body{
     float: right;
 }
 
+.align-to-center{
+    align-items: center !important;
+}
+
+.justify-content-to-center{
+    justify-content: center !important;
+}
+
+.shape-c{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+
+.center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid #FFFF00;
+    padding: 10px;
+}
+
+.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.section{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.col-{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.mb-5, .my-5 {
+    margin-bottom: 3rem !important;
+}
+
+.btn{
+    position: relative;
+    text-transform: uppercase;
+    will-change: transform;
+    letter-spacing: 0.025em;
+    font-size: 0.875rem;
+}
+
+.btn-warning{
+    color: #fff;
+    background-color: #2b53cc;
+    border-color: #2b53cc;
+    box-shadow: 0 4px 6px rgb(50 50 93 / 11%), 0 1px 3px rgb(0 0 0 / 8%);
+}
+
+
+.alignment-for-form{
+    margin-bottom:  1rem;
+}
+
 /* Clear floats after the columns */
 .row:after {
     content: "";
@@ -89,14 +166,15 @@ body{
     clear: both;
 }
 
-.footer {
+.footer{
     position: absolute;
     bottom: 0;
     width: 100%;
     /* Set the fixed height of the footer here */
     height: 60px;
-    padding-bottom: 50px;
+    padding: 1.5rem 0;
     text-align: center;
+    background-color:white;
 }
 
 
